@@ -128,7 +128,7 @@ class Paciente_model extends CI_Model
         $data['id_provincia']        = $dataForm["provincia"];
         $data['id_comuna']           = $dataForm["comuna"];
         $data['calle']               = $dataForm["calle"];
-        $data['imagen']              = "";//esto esta pendiente
+        $data['imagen']              = $dataForm["imagen"];
         $data['fecha_nac']           = $dataForm["fecha_nac"];
         $data['id_estado_civil']     = $dataForm["estado_civil"];             
         $data['lugar_nac']           = $dataForm["lugar_nac"];
